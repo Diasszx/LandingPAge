@@ -1,0 +1,97 @@
+.tags {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 8px;
+  padding-bottom: 4;
+  font-weight: 500;
+  text-transform: capitalize;
+  width: fit-content;
+  border-radius: 9999px;
+  color: white;
+}
+
+.tags h3:nth-child(1) {
+  background-color: rgb(234 179 8);
+  border-radius: 9999px;
+  padding: 4px 8px;
+}
+
+.tags h3:nth-child(1):hover {
+  cursor: default;
+  transition: 0.5s;
+  background-color: rgb(161 98 7);
+}
+
+.tags h3:nth-child(2) {
+  background-color: rgb(59 130 246);
+  border-radius: 9999px;
+  padding: 4px 8px;
+}
+
+.tags h3:nth-child(2):hover {
+  cursor: default;
+  transition: 0.5s;
+  background-color: rgb(29 78 216);
+}
+
+.tags h3:nth-child(3) {
+  background-color: rgb(249 115 22);
+  border-radius: 9999px;
+  padding: 4px 8px;
+}
+
+.tags h3:nth-child(3):hover {
+  cursor: default;
+  transition: 0.5s;
+  background-color: rgb(194 65 12);
+}
+
+.tags h3:nth-child(4) {
+  background-color: rgb(107, 91, 248);
+  border-radius: 9999px;
+  padding: 4px 8px;
+}
+
+.tags h3:nth-child(4):hover {
+  cursor: default;
+  transition: 0.5s;
+  background-color: limegreen;
+}
+
+.tags h3:nth-child(5) {
+  background-color: rgb(30 64 175);
+  border-radius: 9999px;
+  padding: 4px 8px;
+}
+
+.tags h3:nth-child(5):hover {
+  cursor: default;
+  transition: 0.5s;
+  background-color: rgb(37 99 235);
+}
+
+.tags h3:nth-child(6) {
+  background-color: rgb(96 165 250);
+  border-radius: 9999px;
+  padding: 4px 8px;
+}
+
+.tags h3:nth-child(6):hover {
+  cursor: default;
+  transition: 0.5s;
+  background-color: rgb(37 99 235);
+}
+
+.tags h3:nth-child(7) {
+  border-radius: 9999px;
+  background-color: black;
+  padding: 4px 8px;
+}
+
+.tags h3:nth-child(7):hover {
+  cursor: default;
+  transition: 0.5s;
+  background-color: rgb(75 85 99);
+}
