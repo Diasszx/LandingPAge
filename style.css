@@ -1,3 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+h1,
+h2,
+h3 {
+  font-family: "MuseoModerno";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --white: #fff;
+  --dark1: #34344e;
+  --dark2: #3a415a;
+  --dark3: #566981;
+  --dark4: #89a7b1;
+  --dark5: #cbdad5;
+  --dark6: #2f2f46;
+  --cyan1: #70e3ea;
+}
+
+body {
+  background-color: var(--dark1);
+  height: 100vh; /*Ocupa tudo*/
+  font-family: "poppins";
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 0.8rem;
+  background-color: var(--dark6);
+  min-height: 50px;
+}
+
+header h1 {
+  color: var(--white);
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav-links:hover {
+  color: var(--dark4);
+  transition: 0.4s;
+  text-decoration: underline;
+}
+
+.img-brasil {
+  max-width: 30px;
+  height: 100%;
+}
+
 .tags {
   display: flex;
   gap: 8px;
