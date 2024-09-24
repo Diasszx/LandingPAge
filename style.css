@@ -10,6 +10,7 @@ h3 {
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -20,11 +21,12 @@ h3 {
   --dark4: #89a7b1;
   --dark5: #cbdad5;
   --dark6: #2f2f46;
+  --dark7: #242436;
   --cyan1: #70e3ea;
 }
 
 body {
-  background-color: var(--dark1);
+  background-color: var(--dark7);
   height: 100vh; /*Ocupa tudo*/
   font-family: "poppins";
 }
@@ -138,6 +140,7 @@ strong {
 .second-section {
   background-color: #303c66;
 }
+
 .second-section h2 {
   font-size: 35px;
   padding: 1rem;
@@ -262,4 +265,75 @@ strong {
   cursor: default;
   transition: 0.5s;
   background-color: rgb(75 85 99);
+}
+
+.wrapper {
+  width: min(112rem, 100%);
+  display: grid;
+}
+
+.third-section h2 {
+  font-size: 35px;
+  padding: 1rem;
+}
+
+#my-projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between; /* Espalha os itens uniformemente */
+  padding: 2rem;
+}
+
+#my-projects-list a {
+  text-decoration: none;
+  color: var(--dark5);
+}
+
+.project-item {
+  flex: 1 1 calc(33.333% - 2rem); /* Define a largura para 1/3 da linha */
+  background-color: var(--dark2);
+  color: var(--white);
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.project-item:hover {
+  transform: scale(1.05); /* Efeito de hover para destacar */
+}
+
+@media (max-width: 768px) {
+  .project-item {
+    flex: 1 1 calc(50% - 2rem); /* Em telas médias, exibe 2 projetos por linha */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-item {
+    flex: 1 1 100%; /* Em telas pequenas, exibe 1 projeto por linha */
+  }
+}
+
+footer {
+  background-color: var(--dark6);
+}
+
+footer h2 {
+  font-size: 35px;
+}
+
+footer {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+footer > div {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
